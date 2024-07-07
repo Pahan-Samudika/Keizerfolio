@@ -230,9 +230,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "3D Portfolio Site",
+      name: "Keizerfolio",
       description:
-        "The interactive platform presents creative works in a three-dimensional space, enhancing user engagement and visual appeal while showcasing expertise in UI/UX design.",
+        "The interactive 3D portfolio presents creative works in a three-dimensional space, enhancing user engagement and visual appeal while showcasing expertise in UI/UX design.",
       tags: [
         {
           name: "threejs",
@@ -248,7 +248,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Pahan-Samudika/Keizerfolio.git",
     },
     {
       name: "Kandyan Studio",
