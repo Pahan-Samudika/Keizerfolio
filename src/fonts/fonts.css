@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Monument';
+    src: url('./MonumentExtended-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Monument';
+    src: url('./MonumentExtended-Ultrabold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Robine';
+    src: url('./Robine-demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Brickers';
+    src: url('./brickers.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Extended';
+    src: url('./extended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Neutro';
+    src: url('./Neutro-Outline.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Neutro';
+    src: url('./Neutro-ExtraBold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Exo';
+    src: url('./Exo-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Exo';
+    src: url('./Exo-Medium.otf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Exo';
+    src: url('./Exo-Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
