@@ -94,7 +94,7 @@ const About = () => {
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
         </div>
-        <Tech />
+        {/* <Tech /> */}
         {/* <div className='mt-20 red-orange-gradient font-medium flex px-5 py-3 rounded-t-2xl max-w-[200px] justify-center'>
           <p className="text-white text-[24px]">Interests</p>
         </div>
