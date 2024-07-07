@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div  className='px-10'>
         <hr/>
-        <footer className='text-white text-[10px] sm:p-10 flex justify-between items-center sm:justify-end'>
-        <ul className='list-none sm:hidden flex flex-row gap-3'>
+        <footer className='text-white text-[10px] sm:p-10 py-10 flex justify-between items-center sm:justify-end'>
+        <ul className='list-none sm:hidden flex flex-row gap-2'>
           {socialLinks.map((Link) => (
             <li
               key={Link.id}
