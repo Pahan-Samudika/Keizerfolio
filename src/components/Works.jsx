@@ -17,7 +17,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link}) => {
           scale:1,
           speed:450
         }}
-        className='bg-[#141414] p-5 rounded-2xl sm:w-[360px] h-full w-full flex-grow'
+        className='bg-[#141414] p-5 rounded-2xl xs:w-[360px] h-full w-full flex-grow'
       >
         <div className='w-full h-[200px]'>
           <img
