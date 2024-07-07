@@ -19,7 +19,7 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-            <p className='uppercase'>© 2024 Pahan Abhayawardhane</p>
+            <p className='uppercase ml-5'>© 2024 Pahan Abhayawardhane</p>
         </footer>
         </div>
     );
