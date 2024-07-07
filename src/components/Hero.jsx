@@ -20,7 +20,7 @@ const Hero = () => {
   
   return (
     <section className='relative w-full h-screen mx-auto'>
-      <div className='absolute inset-0 top-[100px] flex justify-center items-center lg:text-[800px] text-[400px]'>
+      <div className='absolute inset-0 top-[100px] flex justify-center items-center md:text-[800px] text-[200px]'>
           <p className={`hero-font mt-2 text-[#EF7B45] opacity-30`}>
             KEIZER
           </p>
