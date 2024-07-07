@@ -89,7 +89,7 @@ const About = () => {
         </div>
       </div>
       <div className='flex-row'>
-        <div className="flex flex-wrap gap-5 mx-auto justify-between xs:mt-12">
+        <div className="flex flex-wrap gap-5 mx-auto justify-between mt-8">
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
