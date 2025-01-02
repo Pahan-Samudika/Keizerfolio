@@ -16,11 +16,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
 import acicts from "./company/acicts.png";
+import o3dynamix from "./company/o3dynamix.png";
+import boi from "./company/boi.png";
 
 import remme from "./projects/remme.png";
 import stockworx from "./projects/stockworx.png";
@@ -28,6 +29,7 @@ import kandyan from "./projects/kandyan.png";
 import roommate from "./projects/roommate.png";
 import taptap from "./projects/taptap.png";
 import portfolio from "./projects/portfolio.png";
+import fixr from "./projects/fixr.png";
 
 import linkedin from "./social/linkedin.png";
 import githubicon from "./social/github.png";
@@ -37,14 +39,44 @@ import twitter from "./social/twitter.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
   me,
+};
+
+export const companylogos = {
+  acicts,
+  o3dynamix,
+  boi,
+};
+
+export const projectImgs = {
+  remme,
+  stockworx,
+  kandyan,
+  roommate,
+  taptap,
+  portfolio,
+  fixr,
+}
+
+export const servicesImgs = {
+  mobile,
+  web,
+  creator,
+  backend,
+}
+
+export const socialMediaLogos = {
+  linkedin,
+  githubicon,
+  facebook,
+  instagram,
+  twitter,
+}
+
+export const technologiesImgs = {
   css,
   figma,
   git,
@@ -53,19 +85,6 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   threejs,
-  linkedin,
-  githubicon,
-  facebook,
-  instagram,
-  twitter,
-  acicts,
-  remme,
-  stockworx,
-  kandyan,
-  roommate,
-  taptap,
-  portfolio,
-};
+}

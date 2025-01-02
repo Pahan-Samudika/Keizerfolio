@@ -51,6 +51,13 @@ const customStyle = {
 
 
 const Experience = () => {
+
+  const sortedExperiences = experiences.sort((a, b) => {
+    const startDateA = new Date(a.startDate || a.StartDate);
+    const startDateB = new Date(b.startDate || b.StartDate);
+    return startDateB - startDateA;
+  });
+
   return (
     <>
       <motion.div variance={textVariant()}>
@@ -64,8 +71,8 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience,index)=>(
-            <ExperienceCard key={index} experience={experience}/>
+          {sortedExperiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>
