@@ -12,18 +12,18 @@ const Footer = () => {
           {socialLinks.map((Link) => (
             <li
               key={Link.id}
-              className={`hover:text-white text-[22px] font-medium cursor-pointer`}
+              className={`hover:text-white text-[18px] md:text-[22px] font-medium cursor-pointer`}
               onClick={() => {
                 window.location.href = Link.url;
               }}
             >
-              <div className="w-[30px] h-[30px] rounded-full red-orange-gradient opacity-80 flex items-center justify-center">
-                <img src={Link.icon} className="w-[28px]" />
+              <div className="w-[23px] h-[23px] md:w-[30px] md:h-[30px] rounded-full red-orange-gradient opacity-80 flex items-center justify-center">
+                <img src={Link.icon} className="w-[20px] md:w-[28px]" />
               </div>
             </li>
           ))}
         </ul>
-        <p className="uppercase ml-5">© {currentYear} Pahan Abhayawardhane</p>
+        <p className="uppercase ml-5 text-[9px] md:text-[12px]">© {currentYear} Pahan Abhayawardhane</p>
       </footer>
     </div>
   );
