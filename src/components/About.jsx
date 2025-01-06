@@ -6,7 +6,7 @@ import { services, interests } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import { me } from '../assets';
-import { Tech } from '../components';
+import { TechStack } from '../components';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -94,7 +94,7 @@ const About = () => {
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
         </div>
-        {/* <Tech /> */}
+        <TechStack />
         {/* <div className='mt-20 red-orange-gradient font-medium flex px-5 py-3 rounded-t-2xl max-w-[200px] justify-center'>
           <p className="text-white text-[24px]">Interests</p>
         </div>

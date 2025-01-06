@@ -30,6 +30,7 @@ import roommate from "./projects/roommate.png";
 import taptap from "./projects/taptap.png";
 import portfolio from "./projects/portfolio.png";
 import fixr from "./projects/fixr.png";
+import medcare from "./projects/medcare.png";
 
 import linkedin from "./social/linkedin.png";
 import githubicon from "./social/github.png";
@@ -59,6 +60,7 @@ export const projectImgs = {
   taptap,
   portfolio,
   fixr,
+  medcare,
 }
 
 export const servicesImgs = {
