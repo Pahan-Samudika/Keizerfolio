@@ -218,7 +218,7 @@ const projects = [
   {
     name: "Fixr",
     description:
-      "The interactive 3D portfolio presents creative works in a three-dimensional space, enhancing user engagement and visual appeal while showcasing expertise in UI/UX design.",
+      "Fixr is a versatile app designed to streamline handyman services by efficiently managing job bookings, payments, and client interactions.",
     tags: [
       {
         name: "reactnative",
@@ -234,12 +234,12 @@ const projects = [
       },
     ],
     image: projectImgs.fixr,
-    source_code_link: "https://github.com/Pahan-Samudika/Keizerfolio.git",
+    source_code_link: "https://github.com/SE-S1-WE-26/Fixr.git",
   },
   {
     name: "Keizerfolio",
     description:
-      "The interactive 3D portfolio presents creative works in a three-dimensional space, enhancing user engagement and visual appeal while showcasing expertise in UI/UX design.",
+      "The interactive 3D portfolio presents creative works in a three-dimensional space, enhancing visual appeal while showcasing expertise in UI/UX design.",
     tags: [
       {
         name: "threejs",
@@ -304,6 +304,31 @@ const projects = [
     source_code_link: "https://github.com/Pahan-Samudika/StockWorX.git",
   },
   {
+    name: "MedCare",
+    description:
+      "MedCare provides comprehensive healthcare services, focusing on delivering high-quality care and personalized treatment to enhance patient well-being.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "purple-text-gradient",
+      }
+    ],
+    image: projectImgs.medcare,
+    source_code_link: "https://github.com/SE-S1-WE-26/MedCare-Frontend.git",
+  },
+  {
     name: "RemMe",
     description:
       "Simple and intuitive task management app designed to help users stay organized and productive.",
@@ -329,11 +354,31 @@ const projects = [
         name: "kotlin",
         color: "blue-text-gradient",
       },
+      {
+        name: "androidstudio",
+        color: "green-text-gradient",
+      },
     ],
     image: projectImgs.taptap,
     source_code_link: "https://github.com/Pahan-Samudika/TapTap.git",
   },
 ];
+
+const techStackIcons = [
+  "fa-brands fa-react",
+  "fa-brands fa-node",
+  "fab fa-node-js",
+  "fab fa-npm",
+  "fa-brands fa-figma",
+  "fa-brands fa-html5",
+  "fa-brands fa-square-js",
+  "fa-brands fa-git-alt",
+  "fa-brands fa-php",
+  "fa-brands fa-css3-alt",
+  "fa-brands fa-bootstrap",
+  "fa-brands fa-bitbucket",
+]
+
 
 export {
   services,
@@ -342,4 +387,5 @@ export {
   experiences,
   testimonials,
   projects,
+  techStackIcons,
 };
