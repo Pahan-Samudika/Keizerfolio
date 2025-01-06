@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="darkgray-gradient rounded-[20px] py-3 px-4 min-h-[50px] flex justify-evenly items-center flex-col"
         >
-          <h5 className="text-white text-[16px] text-center tracking-wider z-10">{title}</h5>
+          <h5 className="text-white text-[14px] md:text-[16px] text-center tracking-wider z-10">{title}</h5>
           {/* <img src={icon} alt={title} className="absolute w-16 h-16 object-contain opacity-40" /> */}
         </div>
       </motion.div>
@@ -65,7 +65,7 @@ const About = () => {
               About <span className="text-[#D84727]">Me</span>
             </h2>
           </motion.div>
-          <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[20px] xl:max-w-lg leading-[30px] tracking-wide text-justify">
+          <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[16px] md:text-[20px] xl:max-w-lg leading-[30px] tracking-wide text-justify">
             I'm <span className={styles.aboutHighlightText}>Pahan</span>, also known as <span className={styles.aboutHighlightText}>KEIZER</span>. I'm passionate about <span className={styles.aboutHighlightText}>UI/UX</span> engineering and development.
             I believe in working <span className={styles.aboutHighlightText}>smart</span>, not hard, and love being part of <span className={styles.aboutHighlightText}>innovative</span> and <span className={styles.aboutHighlightText}>creative</span> teams.
             I'm currently pursuing a BSc IT (Hons) in Software Engineering at SLIIT.
@@ -73,18 +73,18 @@ const About = () => {
         </div>
 
         <motion.div variants={fadeIn('left', 'tween', 0.1, 1)}>
-          <div className="inset-0 max-w-7xl mx-auto flex flex-row ">
+          <div className="inset-0 max-w-6xl mx-auto flex flex-row ">
             <div className="flex flex-col justify-center items-center mt-5">
-              <div className="w-[250px] h-[300px] red-orange-gradient opacity-60 rounded-[80px] mb-10 ml-20 xs:mt-[12px]" />
-              <img src={me} alt="me" className="w-[300px] absolute rounded-[50px]" />
+              <div className="w-[150px] h-[200px] md:w-[250px] md:h-[300px] red-orange-gradient opacity-60 rounded-[50px] md:rounded-[80px] mb-10 ml-20 xs:mt-[12px]" />
+              <img src={me} alt="me" className="w-[200px] md:w-[300px] absolute rounded-[40px] md:rounded-[50px]" />
             </div>
           </div>
         </motion.div>
 
         <div className='mt-8'>
-          <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[24px] xl:max-w-56 leading-[30px] xl:ml-8 ">
-            <span className='text-[32px] text-[#EF7B45]'>"</span>&nbsp;I'm always up for learning new things and growing my skills.
-            Let's create something amazing together ! &nbsp;<span className='text-[32px] text-[#EF7B45]'>"</span>
+          <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[16px] md:text-[24px] xl:max-w-56 leading-[30px] xl:ml-8 ">
+            <span className='text-[24px] md:text-[32px] text-[#EF7B45]'>"</span>&nbsp;I'm always up for learning new things and growing my skills.
+            Let's create something amazing together ! &nbsp;<span className='text-[24px] md:text-[32px] text-[#EF7B45]'>"</span>
           </motion.p>
         </div>
       </div>

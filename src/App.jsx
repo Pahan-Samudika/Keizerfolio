@@ -24,7 +24,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <div className="relative z-0">
+        <div className="relative z-0 w-full">
           <div>
             <About />
           </div>
@@ -32,7 +32,7 @@ const App = () => {
         </div>
         <Experience />
         <Works />
-        <div className="relative z-0">
+        <div className="relative z-0 w-full">
           <div>
             <Contact />
             <Footer />

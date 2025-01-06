@@ -26,10 +26,10 @@ const ExperienceCard = ({experience}) => (
     }
   >
     <div>
-      <h3 className="text-white text-[24px] font-bold">
+      <h3 className="text-white text-[18px] md:text-[24px] font-bold">
         {experience.title}
       </h3>
-      <p className="text-secondary text-[16px] font-semibold" style={{margin:0}}>
+      <p className="text-secondary text-[14px] md:text-[16px] font-semibold" style={{margin:0}}>
         {experience.company_name}
       </p>
     </div>
@@ -64,12 +64,12 @@ const Experience = () => {
       <p className={`${styles.sectionSubText} flex justify-end`}>
         Communities I've worked with
       </p>
-      <h2 className={`${styles.sectionHeadText} flex justify-end`}>
-        <span className='text-[#D84727]'>Work&nbsp;</span> Experience
+      <h2 className={`${styles.sectionHeadText} flex justify-end text-end`}>
+        <span><span className='text-[#D84727]'>Work&nbsp;</span> Experience</span>
       </h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-5 md:mt-20 flex flex-col">
         <VerticalTimeline>
           {sortedExperiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
@@ -80,8 +80,8 @@ const Experience = () => {
         variants={slideIn('up','tween',0.2,1)}
       >
       <div className="mt-16 p-5 flex flex-col items-center justify-center rounded-[20px] text-white">
-        <p className="text-[30px] font-bold">Github Contributions</p>
-        <span className="text-[#D84727] text-[20px] mb-8">(2023-2024)</span>
+        <p className="text-[30px] font-bold text-center">Github Contributions</p>
+        <span className="text-[#D84727] text-[16px] md:text-[20px] mb-8 font-bold">(2024-2025)</span>
       <GitHubCalendar username="Pahan-Samudika" colorScheme="dark" style={customStyle} className={styles.calendar}/>
       </div>
       </motion.div>
