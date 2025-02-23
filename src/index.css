@@ -11,6 +11,8 @@ box-sizing: border-box;
 font-family: "Exo", sans-serif;
 scroll-behavior: smooth;
 color-scheme: dark;
+overflow-x: hidden;
+background-color: #000;
 }
 
 .hero-font {
@@ -23,6 +25,13 @@ color-scheme: dark;
 
 .heading-font {
   font-family: "Monument", sans-serif;
+}
+
+.glass-effect {
+  background:rgba(8, 8, 8, 0.8); /* Transparent white */
+  backdrop-filter: blur(10px); /* Blurred glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  z-index: 1000; /* Ensures it's above other elements */
 }
 
 .hash-span {
