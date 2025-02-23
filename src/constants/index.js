@@ -376,6 +376,7 @@ const techStackIcons = [
   "fa-brands fa-php",
   "fa-brands fa-css3-alt",
   "fa-brands fa-bootstrap",
+  "fa-brands fa-github",
   "fa-brands fa-bitbucket",
 ]
 
