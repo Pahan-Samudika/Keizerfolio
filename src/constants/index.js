@@ -169,7 +169,7 @@ const experiences = [
     company_name: "Board of Investment, Sri Lanka",
     icon: companylogos.boi,
     iconBg: "#000000",
-    date: "Dec 2024 - Present",
+    date: "Jun 2025 - Present",
     StartDate : "2025-06-23",
     points: [""],
   },
