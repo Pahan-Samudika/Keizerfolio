@@ -147,7 +147,7 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Software Engineer (Trainee)",
+    title: "Software Developer",
     company_name: "O3DynamiX",
     icon: companylogos.o3dynamix,
     iconBg: "#000000",
@@ -156,12 +156,21 @@ const experiences = [
     points: [""],
   },
   {
-    title: "Software Developer (Intern)",
+    title: "Software Engineer (Intern)",
     company_name: "Board of Investment, Sri Lanka",
     icon: companylogos.boi,
     iconBg: "#000000",
-    date: "Dec 2024 - Current",
+    date: "Dec 2024 - Jun 2025",
     StartDate : "2024-12-23",
+    points: [""],
+  },
+  {
+    title: "Associate Software Engineer",
+    company_name: "Board of Investment, Sri Lanka",
+    icon: companylogos.boi,
+    iconBg: "#000000",
+    date: "Dec 2024 - Jun 2025",
+    StartDate : "2025-06-23",
     points: [""],
   },
 ];
